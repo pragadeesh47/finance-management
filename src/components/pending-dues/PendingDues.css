@@ -1,0 +1,83 @@
+.pending-page {
+    padding: 24px;
+    font-family: 'Segoe UI', sans-serif;
+    background-color: #f5f7fa;
+    color: #333;
+  }
+  
+  .pending-page h1 {
+    margin-bottom: 24px;
+    font-size: 1.8rem;
+    color: #222;
+  }
+  
+  .search-container {
+    margin-bottom: 20px;
+  }
+  
+  .search-container input {
+    width: 100%;
+    max-width: 320px;
+    padding: 10px 14px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    background-color: #fff;
+    font-size: 0.95rem;
+    color: #333;
+  }
+  
+  .pending-table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: #fff;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.06);
+  }
+  
+  .pending-table thead {
+    background-color: #eaeaea;
+  }
+  
+  .pending-table th,
+  .pending-table td {
+    padding: 16px 20px;
+    text-align: left;
+    font-size: 0.95rem;
+    border-bottom: 1px solid #eee;
+  }
+  
+  .pending-table th {
+    color: #555;
+    font-weight: 600;
+  }
+  
+  .pending-table tbody tr:hover {
+    background-color: #fafafa;
+  }
+  
+  .pay-button {
+    background-color: #007bff;
+    border: none;
+    color: #fff;
+    padding: 8px 14px;
+    border-radius: 5px;
+    font-size: 0.9rem;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+  }
+  
+  .pay-button:hover {
+    background-color: #0056b3;
+  }
+  
+  .no-data {
+    text-align: center;
+    padding: 20px;
+    color: #888;
+    font-size: 1rem;
+  }
+  .pending-table td > button {
+    margin-right: 6px;
+  }
+  

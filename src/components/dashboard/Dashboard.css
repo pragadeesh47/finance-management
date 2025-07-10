@@ -1,0 +1,37 @@
+.dashboard-container {
+    padding: 20px;
+    color: #eee;
+    font-family: 'Segoe UI', sans-serif;
+  }
+  
+  .dashboard-container h1 {
+    margin-bottom: 20px;
+    color: #1e1e1e;
+  }
+  
+  .summary-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 20px;
+  }
+  
+  .chart-container {
+    margin-top: 40px;
+    background-color: #1e1e1e;
+    padding: 20px;
+    border-radius: 8px;
+    height: 300px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
+  }
+  
+  /* Mobile adjustments */
+  @media (max-width: 600px) {
+    .summary-grid {
+      grid-template-columns: repeat(auto-fill, minmax(120px, 1fr));
+    }
+  
+    .chart-container {
+      height: 250px;
+    }
+  }
+  
